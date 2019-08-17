@@ -27,6 +27,7 @@ class QrHelper
             'eccLevel'   => QRCode::ECC_L,
             'addQuietzone' => false,
             'imageTransparent' => false,
+            'imageBase64' => false,
         ];
         return ArrayHelper::merge($defaultOptions, $options);
     }
