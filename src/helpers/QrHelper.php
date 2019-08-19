@@ -28,6 +28,7 @@ class QrHelper
             'addQuietzone' => false,
             'imageTransparent' => false,
             //'outputType' => QRCode::OUTPUT_MARKUP_SVG,
+            'imageBase64' => false,
         ];
         return ArrayHelper::merge($defaultOptions, $options);
     }
