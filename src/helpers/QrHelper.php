@@ -27,6 +27,7 @@ class QrHelper
             'eccLevel'   => QRCode::ECC_L,
             'addQuietzone' => false,
             'imageTransparent' => false,
+            //'outputType' => QRCode::OUTPUT_MARKUP_SVG,
         ];
         return ArrayHelper::merge($defaultOptions, $options);
     }
